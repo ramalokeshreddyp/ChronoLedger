@@ -1,6 +1,6 @@
 <div align="center">
 
-
+# 🏦 Bank Account Management System
 
 ### *Event Sourcing + CQRS — Production-Grade Financial Backend*
 
