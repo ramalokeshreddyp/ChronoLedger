@@ -9,8 +9,9 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --omit=dev
 
-# Copy application source
+# Copy application source and seeds
 COPY src/ ./src/
+COPY seeds/ ./seeds/
 
 EXPOSE ${API_PORT:-8080}
 
